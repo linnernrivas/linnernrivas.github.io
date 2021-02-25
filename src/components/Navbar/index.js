@@ -47,10 +47,10 @@ const Navbar = ({toggle}) => {
                             <NavItem>
                                 <NavLinks to='services'>Services</NavLinks>
                             </NavItem>
-                            {/* <NavItem>
-                                <NavLinks to='signup'>Sign Up</NavLinks>
+                            <NavItem>
+                                <NavLinks to='contact'>Contact Us</NavLinks>
                             </NavItem>
-                            <NavButton>
+                            {/* <NavButton>
                                 <NavButtonLink to='/signin'>Sign In</NavButtonLink>
                             </NavButton> */}
                         </NavMenu>
