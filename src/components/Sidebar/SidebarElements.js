@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import {FaTimes}  from 'react-icons/fa'
-import { Link as LinkRouter } from 'react-router-dom'
+// import { Link as LinkRouter } from 'react-router-dom'
 import { Link as LinkScroll} from 'react-scroll'
 
 
@@ -64,27 +64,27 @@ export const SideBarLink = styled(LinkScroll)`
     }
 `;
 
-export const SideButtonWrap = styled.div`
-    display: flex;  
-    justify-content: center;
-`;
+// export const SideButtonWrap = styled.div`
+//     display: flex;  
+//     justify-content: center;
+// `;
 
-export const SideBarRoute = styled(LinkRouter)`
-   border-radius: 50px;
-   background:#AF7D01;
-   white-space: nowrap;
-   padding: 16px 64px;
-   color: #010606;
-   font-size: 16px;
-   outline: none;
-   border: none;
-   cursor: pointer;
-   transition: all 0.2s ease-in-out;
-   text-decoration: none;
+// export const SideBarRoute = styled(LinkRouter)`
+//    border-radius: 50px;
+//    background:#AF7D01;
+//    white-space: nowrap;
+//    padding: 16px 64px;
+//    color: #010606;
+//    font-size: 16px;
+//    outline: none;
+//    border: none;
+//    cursor: pointer;
+//    transition: all 0.2s ease-in-out;
+//    text-decoration: none;
 
-   &:hover{
-       transition: all 0.2s ease-in-out;
-       background: #fff;
-       color: #010606;
-   }
-`;
+//    &:hover{
+//        transition: all 0.2s ease-in-out;
+//        background: #fff;
+//        color: #010606;
+//    }
+// `;
