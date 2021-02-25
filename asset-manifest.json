@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/css/main.587927e8.chunk.css",
+    "main.js": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/js/main.d337fc09.chunk.js",
+    "main.js.map": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/js/main.d337fc09.chunk.js.map",
+    "runtime-main.js": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/js/runtime-main.aaca12ba.js",
+    "runtime-main.js.map": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/js/runtime-main.aaca12ba.js.map",
+    "static/js/2.dc4ae40d.chunk.js": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/js/2.dc4ae40d.chunk.js",
+    "static/js/2.dc4ae40d.chunk.js.map": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/js/2.dc4ae40d.chunk.js.map",
+    "index.html": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/index.html",
+    "static/css/main.587927e8.chunk.css.map": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/css/main.587927e8.chunk.css.map",
+    "static/js/2.dc4ae40d.chunk.js.LICENSE.txt": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/js/2.dc4ae40d.chunk.js.LICENSE.txt",
+    "static/media/linner_with_hat.21eaaea8.jpeg": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/media/linner_with_hat.21eaaea8.jpeg",
+    "static/media/svg-1.e88c096c.svg": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/media/svg-1.e88c096c.svg",
+    "static/media/svg-2.ae9bbcb2.svg": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/media/svg-2.ae9bbcb2.svg",
+    "static/media/svg-3.5d9a9c5c.svg": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/media/svg-3.5d9a9c5c.svg",
+    "static/media/undraw_Portfolio_.3d935bd1.svg": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/media/undraw_Portfolio_.3d935bd1.svg",
+    "static/media/video_red.6056d728.mp4": "/linnernrivas/linnernrivas.github.io.git/linnerrivas-website/static/media/video_red.6056d728.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaca12ba.js",
+    "static/js/2.dc4ae40d.chunk.js",
+    "static/css/main.587927e8.chunk.css",
+    "static/js/main.d337fc09.chunk.js"
+  ]
+}
