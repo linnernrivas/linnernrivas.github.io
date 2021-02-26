@@ -17,11 +17,7 @@ const About = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle}/>
             <Navbar toggle={toggle}/>
-            <HeroSection/>
-            <InfoSection {...homeObjOne}/>
-            <InfoSection {...homeObjTwo}/>
-            <Services />
-            <InfoSection {...homeObjThree}/>
+                <h1>About us</h1>
             <Footer/>
         </>
     )
