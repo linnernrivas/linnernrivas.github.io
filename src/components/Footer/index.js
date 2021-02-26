@@ -12,6 +12,8 @@ import { FooterContainer,
     WebsiteRights,
     SocialIcons,
     SocialIconLink} from './FooterElements';
+import Home from '../../pages/';
+import About from '../../pages/about';
 
 const Footer = () => {
     return (
@@ -20,16 +22,9 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                                <footerLink to="/">Home</footerLink>
-                                <footerLink to="/">About Us</footerLink>
-                                <footerLink to="/">Home</footerLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Social Media</FooterLinkTitle>
-                                <footerLink to="/">Home</footerLink>
-                                <footerLink to="/">About Us</footerLink>
-                                <footerLink to="/">Home</footerLink>
+                            <FooterLinkTitle>Linner Rivas</FooterLinkTitle>
+                                <footerLink path="/" component={Home}>Home</footerLink>
+                                <footerLink path="/About" component={About}>About Us</footerLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

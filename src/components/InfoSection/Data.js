@@ -16,7 +16,8 @@ export const homeObjOne = {
     alt:'Linner',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    path: '/About'
 }
 
 export const homeObjTwo = {
@@ -33,7 +34,8 @@ export const homeObjTwo = {
     alt:'portfolio',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    path: '/Portfolio'
 }
 
 export const homeObjThree = {
@@ -50,5 +52,6 @@ export const homeObjThree = {
     alt:'contact',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    path: '/Contact'
 }

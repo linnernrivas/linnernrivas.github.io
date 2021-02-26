@@ -34,13 +34,19 @@ export const InfoRow = styled.div`
 
 export const Column1 = styled.div`
     margin-bottom: 15px;
-    padding: 250px 15px;
+    padding: 0px 15px;
     grid-area: col1;
+    @media screen and (min-width: 981px){
+        padding: 250px 15px;
+    }
 `
 export const Column2 = styled.div`
     margin-bottom: 15px;
-    padding:92px 15px;
+    padding:0px 15px;
     grid-area: col2;
+    @media screen and (min-width: 981px){
+        padding:92px 15px;
+    }
 `
 export const TextWrapper = styled.div`
     max-width: 540px;

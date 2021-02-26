@@ -1,14 +1,23 @@
 import React from 'react';
 import './App.css';
-import Home from './pages'
+import Home from './pages';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Portfolio from './pages/portfolio';
 import { BrowserRouter as Router, Switch , Route } from 'react-router-dom';
 
 
 function App() {
   return (
-    <Router>
-      <Home/> 
-    </Router>
+    // <Router>
+    //   <Home/> 
+    // </Router>
+    <Router >
+        <Route path="/" exact component={Home} exact/>
+        <Route path="/About" component={About} exact/>
+        <Route path="/Contact" component={Contact} exact/>
+        <Route path="/Portfolio" component={Portfolio} exact/>
+</Router>
   );
 }
 

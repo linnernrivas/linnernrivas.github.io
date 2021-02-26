@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {useState}  from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '../ButtonElements';
 import {
     InfoContainer,
@@ -17,7 +18,11 @@ import {
 
 const InfoSection = ({lightBg,id, imgStart,topLine,lightText,
     headLine,darkText,description,buttonLabel,img,alt,
-primary,dark,dark2}) => {
+primary,dark,dark2, path}) => {
+    const [hover,setHover] = useState(false)
+    const onHover = () => {
+        setHover(!hover)
+    }
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -29,14 +34,16 @@ primary,dark,dark2}) => {
                                 <Heading lightText={lightText}>{headLine}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <ButtonWrapper> 
-                                    <Button to='home' smooth={true} 
-                                    duration={500} 
-                                    spy={true} 
-                                    exact="true" 
-                                    offset={-80}
-                                    primary={ primary ? 1 : 0}
-                                    dark={dark ? 1 : 0}
-                                    dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
+                                    <Link to={path}>
+                                        <Button onClick={path} to={path} onMouseEnter={onHover} onMouseLeave={onHover} smooth={true} 
+                                        duration={500} 
+                                        spy={true} 
+                                        exact="true" 
+                                        offset={-80}
+                                        primary={ primary ? 1 : 0}
+                                        dark={dark ? 1 : 0}
+                                        dark2={dark2 ? 1 : 0}>{buttonLabel}</Button>
+                                    </Link>
                                 </ButtonWrapper>
                             </TextWrapper>
                         </Column1>
