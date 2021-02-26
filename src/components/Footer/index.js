@@ -23,8 +23,8 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Linner Rivas</FooterLinkTitle>
-                                <footerLink path="/" component={Home}>Home</footerLink>
-                                <footerLink path="/About" component={About}>About Us</footerLink>
+                                <footerLink path="/" onClick={"/"}  component={Home}>Home</footerLink>
+                                <footerLink path="/About" onClick={"/About"} component={About}>About Us</footerLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
